@@ -7,3 +7,8 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+tokio-serial = "^4.3.3"
+futures = "0.3.1"
+tokio = { version = "0.2.0", features = ["macros"], default-features = false }
+tokio-util = { version = "0.2.0", features = ["codec"], default-features = false }
+bytes = "0.5"
